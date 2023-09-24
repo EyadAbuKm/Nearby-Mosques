@@ -18,10 +18,10 @@ Follow the instructions below to set up the project on your local machine and st
 
 1. **Clone the Repository:**
 ```
-git clone https://github.com/EyadAbuKm/Poke.git
+git clone https://github.com/EyadAbuKm/Nearby-Mosques.git
 ```
 ```
-cd poke
+cd Nearby-Mosques
 ```
 
 
