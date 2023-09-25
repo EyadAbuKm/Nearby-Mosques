@@ -1,16 +1,12 @@
 import 'dart:math';
-import 'dart:typed_data';
-
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:masjidi/core/enums/controller_status.dart';
 import 'package:masjidi/repositories/masjids/masjids.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'dart:ui' as ui;
 
 import '../../../shared/utils/load_marker_image.dart';
 
@@ -40,7 +36,7 @@ class MasjidsController extends GetxController {
   @override
   void onInit() {
     _masjidRepository = MasjidRepository();
-    getBytesFromAsset("assets/images/colored_mosque.png",150).then((value) => coloredImage= value);
+    getBytesFromAsset("assets/images/colored_mosque.png",150.r).then((value) => coloredImage= value);
     fetchMasjids(isFirst: true);
     super.onInit();
   }

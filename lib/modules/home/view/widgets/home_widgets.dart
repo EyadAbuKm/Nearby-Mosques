@@ -42,8 +42,8 @@ Widget buildBottomButtonsSection() {
     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
     children: [
       AppElevatedButton(
-        height: 150.h,
-        width: 150.h,
+        height: 150.w,
+        width: 150.w,
         onPressed: () {
           Get.toNamed(Routes.MASJIDS_MAP);
         },
@@ -61,8 +61,8 @@ Widget buildBottomButtonsSection() {
         height: 12.h,
       ),
       AppElevatedButton(
-        height: 150.h,
-        width: 150.h,
+        height: 150.w,
+        width: 150.w,
         onPressed: () {
           Get.toNamed(Routes.MASJIDS);
         },
