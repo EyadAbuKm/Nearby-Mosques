@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:masjidi/modules/masjids/masjids.dart';
-
 import 'widgets/home_widgets.dart';
 import 'widgets/language_button.dart';
 import 'widgets/theme_button.dart';

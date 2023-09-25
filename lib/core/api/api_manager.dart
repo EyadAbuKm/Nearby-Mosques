@@ -1,5 +1,4 @@
 import 'package:dio/dio.dart';
-import 'package:get/get.dart';
 import 'package:masjidi/core/api/api.dart';
 
 import '../enums/request_type_enum.dart';

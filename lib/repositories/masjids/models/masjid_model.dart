@@ -19,7 +19,7 @@ class MasjidModel {
   String? masjidName;
   Distance? masjidPic;
   MasjidTimings? masjidTimings;
-  dynamic? notMasjid;
+  dynamic notMasjid;
 
   MasjidModel(
       {this.distance,

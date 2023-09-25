@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:masjidi/shared/theme/theme.dart';
 
 IconButton buildChangeThemeButton() {
   return IconButton(
